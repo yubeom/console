@@ -1,0 +1,33 @@
+{
+  "name": "storybook7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-docs": "^8.0.10",
+    "@storybook/addon-essentials": "^7.6.10",
+    "@storybook/addon-interactions": "^7.6.10",
+    "@storybook/addon-links": "^7.6.10",
+    "@storybook/blocks": "^7.6.10",
+    "@storybook/builder-vite": "^8.0.10",
+    "@storybook/test": "^7.6.10",
+    "@storybook/vue": "^7.6.10",
+    "@storybook/vue-vite": "^7.6.10",
+    "@types/react": "^18.3.2",
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^7.6.10",
+    "vite": "^5.2.11"
+  }
+}
