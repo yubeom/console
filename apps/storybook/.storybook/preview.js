@@ -1,7 +1,6 @@
 import '@/styles/style.pcss';
 
 import Vue from 'vue';
-
 import { i18n, I18nConnector } from '@/translations';
 import { withDesign } from 'storybook-addon-designs';
 import VTooltip from 'v-tooltip';
